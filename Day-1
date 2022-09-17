@@ -1,0 +1,27 @@
+Time complexity
+->amount of time taken by an algorithm to run
+->as a function of length of the input
+
+Why needed?
+->for making better programs
+->comparison of algo
+
+Big O notation ->upper bound
+Theta 0 ->for avg case complexity
+Omega ->lower bound
+
+Constant time -> O(1)    for(i = 0; i<10; i++){cout<<"hello";}  ---> fixed -> print hello 10 times
+Linear time -> O(n)      for(i = 0; i<n; i++){cout<<"hello";}  ---> not fixed -> print hello n times
+Logarithmic time -> O(log n)      binary search
+Quadratic time -> O(n^2)     nested loops(2)
+Cubic time -> O(n^3)       nested loops(3)
+
+Questions
+f(n) = 2n^2 + 3n --> O(n^2)
+f(n) = 4n^4 + 3n^3 --> O(n^4)
+f(n) = n^2 + logn --> O(n^2)
+f(n) = 12001 --> O(1)
+f(n) = 3n^3 + 2n^2 + 5 --> O(n^3)
+f(n) = 5n^2 + logn --> O(n^2)
+f(n) = (n^3)/300 --> O(n^3)
+f(n) = n/4 --> O(n)
